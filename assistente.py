@@ -1,7 +1,5 @@
 import pandas as pd
 
-# Carrega seus gastos - usa o mesmo csv do Projeto 1
-# Cria um gastos.csv com colunas: Data, Descricao, Categoria, Valor
 try:
     df = pd.read_csv('gastos.csv')
     print("💜 Base de gastos carregada!")
